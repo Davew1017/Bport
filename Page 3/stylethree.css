@@ -34,6 +34,27 @@ hr {
     width: 840px;
 }
 
+.picture1 {
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+
+.picture2 {
+    height: 100px;
+    width: 100px;
+}
+
+.picture3 {
+    height: 100px;
+    width: 100px;
+}
+
+.picture4 {
+    height: 100px;
+    width: 100px;
+}
+
 
 footer {
     background-color: #666666;
