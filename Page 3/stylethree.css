@@ -10,15 +10,18 @@ h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
-.topnav a {
+.topnav {
     float: right;
-    color: #777777;
     margin-top: 80px;
     padding: 5px;
-    margin-right: 20px;
+    margin-right: 170px;
     font-size: 16px;
-    text-decoration: none;
     text-align: center;
+}
+
+.topnav a {
+    color: #777777;
+    text-decoration: none;
 }
 
 h2 {
@@ -30,31 +33,106 @@ h2 {
 }
 
 hr {
-    margin-left: 33%;
+    margin-left: 22%;
     width: 840px;
 }
 
+
 .picture1 {
+    position: relative;
     height: 100px;
     width: 100px;
     float: left;
+    margin-left: 33%;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.text1 {
+    position: absolute;
+    clear: both;
+    margin-left: 33%;
+    margin-top: 80px;
+    width: 100px;
+    height: 20px;
+    color: white;
 }
 
 .picture2 {
     height: 100px;
     width: 100px;
+    rotate: 180;
+    float: left;
+    padding-bottom: 20px;
+}
+
+.text2 {
+    position: absolute;
+    clear: both;
+    margin-left: 45%;
+    margin-top: 80px;
+    width: 100px;
+    height: 20px;
+    color: white;
 }
 
 .picture3 {
+    clear: both;
+    float: left;
     height: 100px;
     width: 100px;
+    rotate: 180;
+    margin-left: 33%;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.text3 {
+    position: absolute;
+    clear: both;
+    margin-left: 33%;
+    margin-top: 200px;
+    width: 100px;
+    height: 20px;
+    color: white;
 }
 
 .picture4 {
+    float: left;
     height: 100px;
     width: 100px;
+    padding-bottom: 20px;
 }
 
+.text4 {
+    position: absolute;
+    clear: both;
+    margin-left: 45%;
+    margin-top: 200px;
+    width: 100px;
+    height: 20px;
+    color: white;
+}
+
+.picture5 {
+    clear: both;
+    float: left;
+    height: 100px;
+    width: 100px;
+    padding-bottom: 200px;
+    margin-left: 33%;
+    margin-bottom: 200px:
+}
+
+.text5 {
+    position: absolute;
+    clear: both;
+    margin-left: 33%;
+    margin-top: 300px;
+    width: 100px;
+    height: 20px;
+    color: white;
+}
 
 footer {
     background-color: #666666;
