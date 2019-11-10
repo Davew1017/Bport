@@ -45,7 +45,7 @@ hr {
     float: left;
     margin-left: 33%;
     padding-right: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 .text1 {
@@ -59,11 +59,14 @@ hr {
 }
 
 .picture2 {
+    position: relative;
     height: 100px;
     width: 100px;
-    rotate: 180;
     float: left;
+    margin-top: -18px;
+    margin-left: 5px;
     padding-bottom: 20px;
+    transform: rotate(180deg);
 }
 
 .text2 {
@@ -77,12 +80,12 @@ hr {
 }
 
 .picture3 {
+    transform: rotate(180deg);
     clear: both;
     float: left;
     height: 100px;
     width: 100px;
-    rotate: 180;
-    margin-left: 33%;
+    margin-left: 475px;
     padding-right: 20px;
     padding-bottom: 20px;
 }
@@ -101,6 +104,8 @@ hr {
     float: left;
     height: 100px;
     width: 100px;
+    margin-top: 22px;
+    margin-left: 23px;
     padding-bottom: 20px;
 }
 
@@ -121,6 +126,7 @@ hr {
     width: 100px;
     padding-bottom: 200px;
     margin-left: 33%;
+    margin-top: 5px;
     margin-bottom: 200px:
 }
 

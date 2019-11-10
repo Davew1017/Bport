@@ -1,18 +1,35 @@
+body {
+    background-image: "C:\Users\davew\Desktop\BPort\page 1\criss-cross.png";
+    background-color: beige;
+}
+
+.div1 {
+    width: 100%;
+    height: 50px;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 125px;
+    margin-bottom: 2px;
+}
+
 h1 {
     background-color: #4aaaa5;
     color: white;
-    padding: 40px 10px 10px 10px;
+    padding: 20px;
+    padding-left: 5px;
     width: 170px;
-    height: 40px;
+    height: 30px;
+    margin-top: -10px;
     margin-left: 32%;
     float: left;
-    font-size: 20px;
+    font-size: 22px;
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 .topnav {
     float: right;
-    margin-top: 80px;
+    margin-top: 10px;
     padding: 5px;
     margin-right: 170px;
     font-size: 16px;
@@ -22,6 +39,7 @@ h1 {
 .topnav a {
     color: #777777;
     text-decoration: none;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 h2 {
@@ -29,7 +47,7 @@ h2 {
     font-family: 'Georgia', Times, Times New Roman, serif;
     clear: both;
     color: #4aaaa5;
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 20px;
 }
 
@@ -47,6 +65,7 @@ input {
 label {
     margin-left: 33%;
     color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 #message {
@@ -71,7 +90,9 @@ footer {
     background-color: #666666;
     clear: both;
     width: 100%;
+    border-top: 10px solid green;
     color: #777777;
+    margin-top: 10%;
     margin-bottom: 0;
     height: 30px;
     text-align: center;
