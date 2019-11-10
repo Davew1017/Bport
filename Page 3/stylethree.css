@@ -1,9 +1,26 @@
+body {
+    background-image: "C:\Users\davew\Desktop\BPort\page 1\criss-cross.png";
+    background-color: beige;
+}
+
+.div1 {
+    width: 100%;
+    height: 50px;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 125px;
+    margin-bottom: 2px;
+}
+
 h1 {
     background-color: #4aaaa5;
     color: white;
-    padding: 40px 10px 10px 10px;
+    padding: 20px;
+    padding-left: 5px;
+    margin-top: -10px;
     width: 170px;
-    height: 40px;
+    height: 30px;
     margin-left: 32%;
     float: left;
     font-size: 20px;
@@ -12,7 +29,7 @@ h1 {
 
 .topnav {
     float: right;
-    margin-top: 80px;
+    margin-top: 15px;
     padding: 5px;
     margin-right: 170px;
     font-size: 16px;
@@ -24,8 +41,20 @@ h1 {
     text-decoration: none;
 }
 
+#AboutMe {
+    background-color: #ffffff;
+    width: 825px;
+    margin-left: 490px;
+    margin-right: 600px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    height: 800px;
+    padding: 20px;
+    border: 30px #dddddd;
+}
+
 h2 {
-    margin-left: 33%;
+    margin-left: 5px;
     font-family: 'Georgia', Times, Times New Roman, serif;
     clear: both;
     color: #4aaaa5;
@@ -33,17 +62,17 @@ h2 {
 }
 
 hr {
-    margin-left: 22%;
-    width: 840px;
+    margin-left: 10px;
+    width: 825px;
 }
 
 
 .picture1 {
     position: relative;
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
     float: left;
-    margin-left: 33%;
+    margin-left: 10px;
     padding-right: 20px;
     padding-bottom: 10px;
 }
@@ -51,17 +80,21 @@ hr {
 .text1 {
     position: absolute;
     clear: both;
-    margin-left: 33%;
-    margin-top: 80px;
-    width: 100px;
-    height: 20px;
+    background-color: #4aaaa5;
+    margin-left: 11px;
+    margin-top: 150px;
+    width: 195px;
+    height: 35px;
+    text-align: center;
+    padding: 2px;
+    padding-top: 5px;
     color: white;
 }
 
 .picture2 {
     position: relative;
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
     float: left;
     margin-top: -18px;
     margin-left: 5px;
@@ -72,10 +105,14 @@ hr {
 .text2 {
     position: absolute;
     clear: both;
-    margin-left: 45%;
-    margin-top: 80px;
-    width: 100px;
-    height: 20px;
+    background-color: #4aaaa5;
+    margin-left: 235px;
+    margin-top: 150px;
+    text-align: center;
+    width: 195px;
+    height: 35px;
+    padding: 2px;
+    padding-top: 5px;
     color: white;
 }
 
@@ -83,9 +120,9 @@ hr {
     transform: rotate(180deg);
     clear: both;
     float: left;
-    height: 100px;
-    width: 100px;
-    margin-left: 475px;
+    height: 200px;
+    width: 200px;
+    margin-left: -5px;
     padding-right: 20px;
     padding-bottom: 20px;
 }
@@ -93,17 +130,21 @@ hr {
 .text3 {
     position: absolute;
     clear: both;
-    margin-left: 33%;
-    margin-top: 200px;
-    width: 100px;
-    height: 20px;
+    background-color: #4aaaa5;
+    margin-left: 14px;
+    margin-top: 380px;
+    width: 195px;
+    height: 35px;
+    text-align: center;
+    padding: 2px;
+    padding-top: 5px;
     color: white;
 }
 
 .picture4 {
     float: left;
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
     margin-top: 22px;
     margin-left: 23px;
     padding-bottom: 20px;
@@ -112,20 +153,24 @@ hr {
 .text4 {
     position: absolute;
     clear: both;
-    margin-left: 45%;
-    margin-top: 200px;
-    width: 100px;
-    height: 20px;
+    background-color: #4aaaa5;
+    margin-left: 238px;
+    margin-top: 380px;
+    text-align: center;
+    width: 195px;
+    height: 35px;
+    padding: 2px;
+    padding-top: 5px;
     color: white;
 }
 
 .picture5 {
     clear: both;
     float: left;
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
     padding-bottom: 200px;
-    margin-left: 33%;
+    margin-left: 10px;
     margin-top: 5px;
     margin-bottom: 200px:
 }
@@ -133,10 +178,14 @@ hr {
 .text5 {
     position: absolute;
     clear: both;
-    margin-left: 33%;
-    margin-top: 300px;
-    width: 100px;
-    height: 20px;
+    background-color: #4aaaa5;
+    margin-left: 11px;
+    margin-top: 605px;
+    width: 195px;
+    height: 35px;
+    text-align: center;
+    padding: 2px;
+    padding-top: 5px;
     color: white;
 }
 
@@ -146,6 +195,7 @@ footer {
     width: 100%;
     color: #777777;
     margin-bottom: 0;
+    border-top: 10px solid #4aaaa5;
     height: 30px;
     text-align: center;
     padding: 20px 20px 0px 20px;
