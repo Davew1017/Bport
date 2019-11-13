@@ -1,6 +1,5 @@
 body {
-    background-image: "C:\Users\davew\Desktop\BPort\page 1\criss-cross.png";
-    background-color: beige;
+    background-image: url("../images/criss-cross.png");
 }
 
 .div1 {
@@ -172,7 +171,7 @@ hr {
     padding-bottom: 200px;
     margin-left: 10px;
     margin-top: 5px;
-    margin-bottom: 200px:
+    margin-bottom: 200px;
 }
 
 .text5 {

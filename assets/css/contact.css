@@ -1,6 +1,5 @@
 body {
-    background-image: "C:\Users\davew\Desktop\BPort\page 1\criss-cross.png";
-    background-color: beige;
+    background-image: url("../images/criss-cross.png");
 }
 
 .div1 {
